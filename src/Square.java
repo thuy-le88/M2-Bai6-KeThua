@@ -16,6 +16,17 @@ public class Square extends Rectangle {
         setWidth(side);
         setLenght(side);
     }
+
+    @Override
+    public void setWidth(double width) {
+        setWidth(width);
+    }
+
+    @Override
+    public void setLenght(double lenght) {
+        setLenght(lenght);
+    }
+
     @Override
     public String toString() {
         return "A Square with side="
