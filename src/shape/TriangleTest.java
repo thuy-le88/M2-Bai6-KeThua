@@ -1,3 +1,5 @@
+package shape;
+
 public class TriangleTest {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();

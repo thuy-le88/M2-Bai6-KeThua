@@ -1,3 +1,5 @@
+package shape;
+
 public class Triangle extends Shape {
     private double x=1.0;
     private double y=1.0;
@@ -45,7 +47,7 @@ public class Triangle extends Shape {
 
     @Override
     public String toString() {
-        return "Triangle {x= "+this.x+"; y= "+this.y+"; z= "+this.z +"; color= "+this.getColor()
+        return "shape.Triangle {x= "+this.x+"; y= "+this.y+"; z= "+this.z +"; color= "+this.getColor()
                 +";filled= "+ this.isFilled()+"; Perimeter= "+this.getPerimeter();
     }
 }

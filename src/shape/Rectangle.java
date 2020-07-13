@@ -1,3 +1,5 @@
+package shape;
+
 public class Rectangle extends Shape {
     double width;
     double lenght;
@@ -39,7 +41,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "A Rectangle with width="
+        return "A shape.Rectangle with width="
                 + getWidth()
                 + " and length="
                 + getLenght()

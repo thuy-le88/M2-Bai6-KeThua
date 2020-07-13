@@ -1,4 +1,6 @@
-public class Circle extends Shape{
+package shape;
+
+public class Circle extends Shape {
     private double radius;
     public Circle() {
         radius=1.0;
@@ -27,7 +29,7 @@ public class Circle extends Shape{
 
     @Override
     public String toString() {
-        return "Circle{" +
+        return "shape.Circle{" +
                 "radius=" + radius +
                 super.toString()+
                 '}';

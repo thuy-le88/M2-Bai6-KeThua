@@ -1,3 +1,5 @@
+package shape;
+
 public class Shape {
     private String color;
     private boolean filled;
@@ -28,7 +30,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape{" +
+        return "shape.Shape{" +
                 "color='" + color + '\'' +
                 ", filled=" + filled +
                 '}';

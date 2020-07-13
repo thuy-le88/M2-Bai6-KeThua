@@ -37,7 +37,7 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle {color: "+this.getColor()+"; radius: " +this.getRadius()
+        return "shape.Circle {color: "+this.getColor()+"; radius: " +this.getRadius()
                 + "; Area: " +this.getArea()+"; Perimeter: "+this.getPerimeter();
     }
 
